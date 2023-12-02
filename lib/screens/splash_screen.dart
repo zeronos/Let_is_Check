@@ -46,11 +46,9 @@ class _SplashScreenState extends State<SplashScreen>
         child: const Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Icon(
-              Icons.school_rounded,
-              size: 80,
-              color: Colors.white,
-            ),
+            CircleAvatar(
+                radius: 100,
+                backgroundImage: AssetImage('lib/images/logo.png')),
             SizedBox(
               height: 20,
             ),

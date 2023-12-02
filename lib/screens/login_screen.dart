@@ -39,11 +39,9 @@ class _LogInScreenState extends State<LogInScreen> {
               children: [
                 const SizedBox(height: 30),
                 // logo
-                const Icon(
-                  Icons.school_rounded,
-                  size: 80,
-                  color: Colors.white,
-                ),
+                const CircleAvatar(
+                    radius: 50,
+                    backgroundImage: AssetImage('lib/images/logo.png')),
 
                 const SizedBox(height: 30),
 
