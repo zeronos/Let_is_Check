@@ -1,6 +1,6 @@
 # lets_check
 
-A new Flutter project.
+A time attendance class room Flutter project.
 
 ## Getting Started
 
